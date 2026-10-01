@@ -1,12 +1,11 @@
 from ultralytics import YOLO
 import streamlit as st
 from PIL import Image
-import cv2
 
-# YOLO model load
-model = YOLO("best (1).pt")
+# YOLO model loadrrr
+model = YOLO("best (1).pt")  # dhhdhd
 
-st.title("YOLO Object Detection")
+st.title("YOLO Object Detection") # dhdhhdh
 
 # Image upload
 uploaded_file = st.file_uploader(
